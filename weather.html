@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="weather.js" defer></script>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            font-family: serif;
+            padding: 20px;
+            position: relative;
+            
+        }
+        .container{
+            text-align: center;
+            width: 400px;
+            height: 500px;
+            margin-bottom: 20px;
+            outline: none;
+            border: 2px solid lightgray;
+            border-radius: 14px;
+            background-color: #e2c3c3;
+            position: relative;
+
+        }
+        button{
+            border: none;
+            outline: none;
+            text-align: center;
+            padding: 10px 12px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        input{
+            text-align: center;
+            padding: 10px 12px;
+            font-size: 18px;
+            border: none;
+            outline: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Know the weather of any city</h1>
+        <input type="text" placeholder="city name" class="inp">
+        <button class="btn">Click</button>
+        
+    </div>
+</body>
+</html>
